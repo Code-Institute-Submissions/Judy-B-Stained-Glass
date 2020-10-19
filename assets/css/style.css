@@ -15,6 +15,14 @@
     background-color: #F1D6D0;
 }
 
+.bg-color-body {
+    background-color: #F8F0E6;
+}
+
+.bg-color-footer {
+    background-color: #F1D6D0;
+}
+
 /*------------Logo----*/
 #logo {
     font-family: "Great Vibes", cursive;
