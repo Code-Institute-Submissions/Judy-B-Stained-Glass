@@ -32,11 +32,39 @@
 }
 
 /*------------Navigation----*/
-
 .navbar {
     border-radius: 0 0 30px 30px;
 }
 
 #navbarNav {
     text-align: right;
+}
+
+/*------------Footer----*/
+footer {
+    position: fixed;
+    bottom: 0;
+    min-height: 55px;
+    border-radius: 30px 30px 0 0;
+}
+
+.social-icon-links {
+    list-style: none;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.social-icon-links li {
+    display: inline;
+    font-size: 2rem;
+}
+
+.social-icon-links .fab {
+    font-size: 2rem;
+    padding: 1rem;
+    color:  #3D3D3D;
+}
+
+.social-icon-links .fab:hover {
+    opacity: 0.5;
 }
