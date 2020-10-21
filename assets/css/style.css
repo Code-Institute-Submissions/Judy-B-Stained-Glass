@@ -72,3 +72,22 @@ footer {
 
 /*------------Home/About----*/
 
+section {
+    padding-top: 2rem; 
+}
+
+.main-home-image {
+    width: 100%;
+}
+
+.home-abstract-image {
+    height: 100%;
+    width: 100%;
+    align-self: center;
+}
+
+.home-garden-image {
+    height: 100%;
+    width: 100%;
+    align-self: center;
+}
