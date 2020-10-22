@@ -30,6 +30,7 @@
     font-size: 3rem;
     color: #3D3D3D;
     padding: 0;
+    text-shadow: 3px 3px 8px #3D3D3D;
 }
 
 /*------------Navigation----*/
@@ -102,4 +103,8 @@ section {
     padding: 0.5rem;
     text-decoration: none;
     background-color: rgba(0, 0, 0, .3);
+}
+
+p {
+    padding: 0.5rem;
 }
