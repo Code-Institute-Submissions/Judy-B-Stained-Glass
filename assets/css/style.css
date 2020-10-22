@@ -31,6 +31,7 @@
     color: #3D3D3D;
     padding: 0;
     text-shadow: 3px 3px 8px #3D3D3D;
+    margin-left: 0.5rem;
 }
 
 /*------------Navigation----*/
@@ -38,10 +39,19 @@
     border-radius: 0 0 30px 30px;
 }
 
-#navbarNav {
+#navbarNav ul li a {
     text-align: right;
+    font-size: 1.5rem;
 }
 
+.navbar-toggler-icon {
+    width: 2em;
+    height: 2em;
+}
+
+.navbar-toggler {
+    margin-right: 1rem;
+}
 /*------------Footer----*/
 footer {
     position: fixed;
@@ -107,4 +117,5 @@ section {
 
 p {
     padding: 0.5rem;
+    font-size: 1rem;
 }
