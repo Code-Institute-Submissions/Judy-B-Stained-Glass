@@ -7,6 +7,7 @@
     margin: 0;
     font-family: "Raleway", sans-serif;
     font-size: 10px;
+    color: #3D3D3D;
     text-decoration: none;
     text-align: center;
 }
@@ -27,7 +28,7 @@
 h3 {
     font-family: "Great Vibes", cursive;
     font-size: 2rem;
-    padding-top: 1rem;
+    margin-top: 1rem;
     margin-left: 1.5rem;
     text-shadow: 3px 3px 8px #3D3D3D;
 }
@@ -111,8 +112,6 @@ footer {
 
 /*------------Home/About----*/
 
-
-
 .main-home-image {
     width: 100%;
 }
@@ -129,15 +128,24 @@ footer {
     align-self: center;
 }
 
-.main-home .link {
+.link {
     position: absolute;
     bottom: 5%;
     right: 5%;
-    color: whitesmoke;
     border-radius: 0.5rem;
     padding: 0.5rem;
     text-decoration: none;
     background-color: rgba(0, 0, 0, .3);
 }
 
+.link h5, h6 {
+    color: #D6DBDF;
+}
 
+/*------------Repairs----*/
+
+.repairs .fa-tools {
+    font-size: 1.5rem;
+    padding: 1rem;
+    color:  #3D3D3D;
+}
