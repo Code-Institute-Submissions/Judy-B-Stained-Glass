@@ -56,7 +56,7 @@ section {
 /*------------Logo----*/
 #logo {
     font-family: "Great Vibes", cursive;
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: #3D3D3D;
     padding: 0;
     text-shadow: 3px 3px 8px #3D3D3D;
@@ -116,14 +116,10 @@ footer {
 
 .main-home-image {
     margin-top: 5rem;
-    max-width: 100%;
-    height: auto;
 }
 
 .home-abstract-image, 
 .home-garden-image {
-    max-width: 100%;
-    height: auto;
     align-self: center;
 }
 
