@@ -113,18 +113,19 @@ footer {
 /*------------Home/About----*/
 
 .main-home-image {
-    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
 .home-abstract-image {
-    height: 100%;
-    width: 100%;
+    max-width: 100%;
+    height: auto;
     align-self: center;
 }
 
 .home-garden-image {
-    height: 100%;
-    width: 100%;
+    max-width: 100%;
+    height: auto;
     align-self: center;
 }
 
