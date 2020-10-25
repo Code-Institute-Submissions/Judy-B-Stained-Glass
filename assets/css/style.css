@@ -129,20 +129,6 @@ footer {
     align-self: center;
 }
 
-.link {
-    position: absolute;
-    bottom: 5%;
-    right: 5%;
-    border-radius: 0.5rem;
-    padding: 0.5rem;
-    text-decoration: none;
-    background-color: rgba(0, 0, 0, .3);
-}
-
-.link h5, h6 {
-    color: #D6DBDF;
-}
-
 /*------------Repairs----*/
 
 .repairs .fa-tools {
