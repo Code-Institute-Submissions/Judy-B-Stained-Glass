@@ -132,11 +132,11 @@ to read and to quickly find the information that is most relevant to their needs
 # Skeleton
 
 Wireframes for Mobile, Tablet & Desktop
- - [Home Page](https://github.com/Sharon-B/Judy-B-Stained-Glass/blob/master/assets/documentation/home-wf.pdf)
- - [Lamps](https://github.com/Sharon-B/Judy-B-Stained-Glass/blob/master/assets/documentation/lamps-wf.pdf)
- - [Wall Art](https://github.com/Sharon-B/Judy-B-Stained-Glass/blob/master/assets/documentation/wallart-wf.pdf)
- - [Garden](https://github.com/Sharon-B/Judy-B-Stained-Glass/blob/master/assets/documentation/garden-wf.pdf)
- - [Contact](https://github.com/Sharon-B/Judy-B-Stained-Glass/blob/master/assets/documentation/contact-wf.pdf)
+ - [Home Page](https://github.com/Sharon-B/Judy-B-Stained-Glass/blob/master/assets/documentation/wireframes/home-wf.pdf)
+ - [Lamps](https://github.com/Sharon-B/Judy-B-Stained-Glass/blob/master/assets/documentation/wireframes/lamps-wf.pdf)
+ - [Wall Art](https://github.com/Sharon-B/Judy-B-Stained-Glass/blob/master/assets/documentation/wireframes/wallart-wf.pdf)
+ - [Garden](https://github.com/Sharon-B/Judy-B-Stained-Glass/blob/master/assets/documentation/wireframes/garden-wf.pdf)
+ - [Contact](https://github.com/Sharon-B/Judy-B-Stained-Glass/blob/master/assets/documentation/wireframes/contact-wf.pdf)
 
 ### Difference between final design and original wireframes:
 
@@ -152,6 +152,7 @@ Raleway is an elegant sans-serif typeface used for the main text content that pa
 #### Colour scheme: 
 
 The colour scheme is based on the current branding of the company. 
+
 
 #### Images: 
 
