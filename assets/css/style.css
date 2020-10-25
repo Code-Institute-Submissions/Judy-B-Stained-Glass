@@ -115,6 +115,7 @@ footer {
 /*------------Home/About----*/
 
 .main-home-image {
+    margin-top: 5rem;
     max-width: 100%;
     height: auto;
 }
