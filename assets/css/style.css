@@ -112,14 +112,22 @@ footer {
     opacity: 0.5;
 }
 
-/*------------Home/About----*/
+/*------------Home Page Images----*/
 
 .main-home-image {
     margin-top: 5rem;
 }
 
-.home-abstract-image, 
+.home-abstract-image {
+    align-self: center;
+}
 .home-garden-image {
+    align-self: center;
+}
+
+/*------------Home Content----*/
+
+.about {
     align-self: center;
 }
 
@@ -149,3 +157,4 @@ footer {
     color: #747B83;
     text-decoration: none;
 }
+
