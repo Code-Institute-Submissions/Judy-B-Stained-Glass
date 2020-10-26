@@ -68,9 +68,17 @@ section {
     border-radius: 0 0 30px 30px;
 }
 
+#navbarNav {
+    padding-right: 4rem;
+}
+
 #navbarNav ul li a {
     text-align: right;
     font-size: 1.5rem;
+}
+
+.nav-item {
+    margin-right: 1.5rem;
 }
 
 .navbar-toggler-icon {
