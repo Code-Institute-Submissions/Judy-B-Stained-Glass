@@ -128,18 +128,16 @@ footer {
 
 .home-abstract-image {
     align-self: center;
-    height: 200px;
+    max-height: 200px;
     margin-bottom: 1.5rem;
 }
 .home-garden-image {
     align-self: center;
-    height: 200px;
+    max-height: 200px;
     margin-bottom: 1.5rem;
 }
 
 /*------------Home Content----*/
-
-
 
 .main-home-text {
     margin: 0 auto;
@@ -177,3 +175,22 @@ footer {
     text-decoration: none;
 }
 
+
+/*------------Media Queries----*/
+@media only screen and (min-width: 768px) {
+    .container-abstract {
+        order: 1;
+    }
+
+    .about-text {
+        order: 2;
+    }
+
+    .home-abstract-image {
+         max-height: 350px;
+    
+}
+    .home-garden-image {
+        max-height: 350px;
+    }
+}
