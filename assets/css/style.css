@@ -124,6 +124,8 @@ section {
 
 .main-home-image {
     margin-top: 5rem;
+    width: 100%;
+    height: auto;
 }
 
 .home-abstract-image {
@@ -142,7 +144,7 @@ section {
 /*------------Home Content----*/
 
 .main-home-text {
-    margin: 0 auto;
+    margin: 1.5rem auto 0;
     padding-bottom: 1.5rem;
 }
 
@@ -241,6 +243,7 @@ section {
 /*------------Media Queries----*/
 /*-- Medium Screen--*/
 @media only screen and (min-width: 768px) {
+ 
     .container-abstract {
         order: 1;
     }
@@ -262,10 +265,33 @@ section {
     }
 
     .lamps-text {
-    padding-top: 0;
+        padding-top: 0;
 }
 /*-- Large Screen--*/
 @media only screen and (min-width: 992px) {
+    #logo {
+        font-size: 5rem;
+    }
 
+    #navbarNav {
+        padding-right: 3rem;
+    }
+
+    #navbarNav ul li a {
+        font-size: 2rem;
+    }
+
+    .nav-item {
+    margin-right: 3rem;
+    }
+
+    .main-home-image {
+       margin-top: 8rem;
+    }
+
+ .main-home-image {
+        width: auto;
+        height: 80vh;
+    }
 
 }
