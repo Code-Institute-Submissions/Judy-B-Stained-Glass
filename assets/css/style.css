@@ -14,11 +14,11 @@
 
 /*------------Background Colour----*/
 .bg-color-header {
-    background-color: #F1D6D0;
+    background-color: #f1d6d0;
 }
 
 .bg-color-body {
-    background-color: #F8F0E6;
+    background-color: #f8f0e6;
 }
 
 .bg-color-footer {
@@ -160,7 +160,7 @@ footer {
 
  .home-page-buttons .btn {
     font-size: 1.5rem;
-    background-color: rgba(241, 214, 208, 0.7);
+    background-color: rgba(241, 214, 208, 0.5);
     color: #3D3D3D;
     border-radius: 1rem;
     margin-top: 1rem;
@@ -179,6 +179,7 @@ footer {
 
 #lamps-gallery {
     margin-top: 5rem;
+    padding-bottom: 0;
 }
 
 /*------------Lamps Carousel----*/
@@ -194,6 +195,25 @@ footer {
     height: 350px;
     margin: 0 auto;
   }
+
+/*------------Lamps Thumbnails----*/
+/* Code snippet W3 Schools https://www.w3schools.com/howto/howto_css_thumbnail.asp */
+  .thumbnail {
+  border: 1px solid #ddd;
+  margin-top: 1rem;
+  padding: 5px; 
+  width: 100px; 
+  height: 120px;
+}
+
+/* Add a hover effect (blue shadow) */
+.thumbnail:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.thumbnail-links li {
+    display: inline;
+}
 
 /*------------Media Queries----*/
 @media only screen and (min-width: 768px) {
@@ -212,4 +232,5 @@ footer {
     .home-garden-image {
         max-height: 350px;
     }
+
 }
