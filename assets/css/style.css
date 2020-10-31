@@ -92,7 +92,7 @@ section {
 
 /*------------Footer----*/
 
-footer {
+.footer {
     flex-shrink: 0;
     min-height: 55px;
     border-radius: 30px 30px 0 0;
@@ -128,12 +128,14 @@ footer {
 
 .home-abstract-image {
     align-self: center;
-    max-height: 200px;
+    max-width: 80%;
+    height: auto;
     margin-bottom: 1.5rem;
 }
 .home-garden-image {
     align-self: center;
-    max-height: 200px;
+    max-width: 80%;
+    height: auto;
     margin-bottom: 1.5rem;
 }
 
@@ -173,6 +175,14 @@ footer {
 .home-page-buttons .btn-link:hover {
     color: #747B83;
     text-decoration: none;
+}
+/*------------Lamps Content Wrapper----*/
+/*--Code Snippet: Stack Overflow, User: Luke Flournoy https://stackoverflow.com/questions/4575826/how-to-push-a-footer-to-the-bottom-of-page-when-content-is-short-or-missing-*/
+.flex-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between
 }
 
 /*------------Lamps Page----*/
@@ -219,12 +229,17 @@ footer {
     display: inline;
 }
 
+#gallery-thumbnails {
+    margin-top: 2rem;
+}
+
 /*------------ Lamps Text ----*/
 .lamps-text {
     padding-top: 1.5rem;
 }
 
 /*------------Media Queries----*/
+/*-- Medium Screen--*/
 @media only screen and (min-width: 768px) {
     .container-abstract {
         order: 1;
@@ -235,11 +250,22 @@ footer {
     }
 
     .home-abstract-image {
-         max-height: 350px;
-    
-}
-    .home-garden-image {
-        max-height: 350px;
+        max-width: 100%
     }
+
+    .home-garden-image {
+        max-width: 100%
+    } 
+
+    .lamps {
+        margin-top: 1rem;
+    }
+
+    .lamps-text {
+    padding-top: 0;
+}
+/*-- Large Screen--*/
+@media only screen and (min-width: 992px) {
+
 
 }
