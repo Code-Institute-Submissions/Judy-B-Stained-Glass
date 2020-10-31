@@ -182,6 +182,10 @@ footer {
     padding-bottom: 0;
 }
 
+.lamps-heading {
+    padding-bottom: 1rem;
+}
+
 /*------------Lamps Carousel----*/
 
 .lamps { 
@@ -196,7 +200,7 @@ footer {
     margin: 0 auto;
   }
 
-/*------------Lamps Thumbnails----*/
+/*------------ Thumbnails----*/
 /* Code snippet W3 Schools https://www.w3schools.com/howto/howto_css_thumbnail.asp */
   .thumbnail {
   border: 1px solid #ddd;
@@ -213,6 +217,11 @@ footer {
 
 .thumbnail-links li {
     display: inline;
+}
+
+/*------------ Lamps Text ----*/
+.lamps-text {
+    padding-top: 1.5rem;
 }
 
 /*------------Media Queries----*/
