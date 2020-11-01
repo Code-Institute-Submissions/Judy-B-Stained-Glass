@@ -292,7 +292,7 @@ section {
        margin-top: 8rem;
     }
 
- .main-home-image {
+    .main-home-image {
         width: auto;
         height: 90vh;
     }
@@ -300,4 +300,14 @@ section {
      #lamps-gallery {
         padding-top: 4rem;
     }
+
+    .home-abstract-image {
+        max-width: 70%;
+        margin-top: 5rem;
+    }
+
+    .home-garden-image {
+        max-width: 70%;
+        margin-top: 4rem;
+    } 
 }
