@@ -330,6 +330,7 @@ section {
     #subject {
         width: 30%;
 }
+
 /*-- Large Screen--*/
 @media only screen and (min-width: 992px) {
     #logo {
@@ -349,12 +350,13 @@ section {
     }
 
     .main-home-image {
-       margin-top: 8rem;
+        margin-top: 8rem;
+        width: auto;
+        height: 70vh;
     }
 
-    .main-home-image {
-        width: auto;
-        height: 90vh;
+    .heading {
+        font-size: 5rem;
     }
 
      #lamps-gallery {
