@@ -163,7 +163,8 @@ section {
 
 /*------------Buttons----*/
 
- .home-page-buttons .btn {
+ .home-page-buttons .btn,
+ .submit {
     font-size: 1.5rem;
     background-color: rgba(241, 214, 208, 0.5);
     color: #3D3D3D;
@@ -171,7 +172,8 @@ section {
     margin-top: 1rem;
 }
 
-.home-page-buttons .btn:hover {
+.home-page-buttons .btn:hover,
+.submit .btn:hover {
     opacity: 0.5;
 }
 
@@ -248,6 +250,41 @@ section {
 /*------------ Lamps Text ----*/
 .lamps-text {
     padding-top: 1.5rem;
+}
+
+/*------------ Contact Page/Form ----*/
+
+#contact-us-form {
+    background-image: url(../images/contact/jbsg_curved_pavers.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 5px;
+}
+
+.form-input {
+    width: 70%;
+    border-radius: .75rem;
+    border-width: 1px;
+    background-color: rgba(256, 256, 256, 0.7);
+    text-align: left;
+    padding: 2px;
+}
+
+#subject {
+    width: 60%;
+}
+
+.drop-label {
+    background-color: rgba(256, 256, 256, 0.8);
+    border-radius: .5rem;
+    font-size: 1.25rem;
+    width: 6rem;
+}
+
+.submit {
+    width: 6rem;
+    background-color: rgb(241, 214, 208);
+    border-width: 1px;
 }
 
 /*------------Media Queries----*/
