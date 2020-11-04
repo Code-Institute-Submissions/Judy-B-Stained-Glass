@@ -199,15 +199,9 @@ section {
     padding-bottom: 1rem;
 }
 
-/*------------Lamps Carousel----*/
+/*------------ Carousel----*/
 
-.lamps { 
-    max-width: 100%;
-    height: 350px;
-    margin: 0 auto;
-  }
-
- .lamp-img {
+.carousel-img {
     max-width: 100%;
     height: 350px;
     margin: 0 auto;
