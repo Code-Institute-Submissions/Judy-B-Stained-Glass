@@ -72,6 +72,7 @@ section {
 /*------------Navigation----*/
 .navbar {
     border-radius: 0 0 30px 30px;
+    box-shadow: 3px 3px 12px #3D3D3D;
 }
 
 #navbarNav {
@@ -130,7 +131,7 @@ section {
 /*------------Home Page Images----*/
 
 .main-home-image {
-    margin-top: 5rem;
+    margin-top: 6rem;
     width: 100%;
     height: auto;
 }
@@ -362,7 +363,7 @@ section {
     }
 
     .main-home-image {
-        margin-top: 8rem;
+        margin-top: 9rem;
         width: auto;
         height: 70vh;
     }
