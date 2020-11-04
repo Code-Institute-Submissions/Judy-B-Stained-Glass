@@ -11,7 +11,7 @@
     text-decoration: none;
     text-align: center;
 }
-/* Code Snippet:To prevent footer from floating on a short page: https://www.youtube.com/watch?v=yc2olxLgKLk (also set .footer {margin-top: auto; */
+/* Code Snippet:Kevin Powell: To prevent footer from floating on a short page: https://www.youtube.com/watch?v=yc2olxLgKLk (also set .footer {margin-top: auto; */
 body {
     min-height: 100vh;
     display: flex;
@@ -103,7 +103,7 @@ section {
     min-height: 55px;
     border-radius: 30px 30px 0 0;
 
-    margin-top: auto;  /* From code snippet mentioned earlier to prevent footer floating on a short page: https://                          www.youtube.com/watch?v=yc2olxLgKLk */
+    margin-top: auto;  /* Code snippet mentioned earlier to prevent footer floating on a short page: https://www.youtube.com/watch?v=yc2olxLgKLk */
 }
 
 .social-icon-links {
@@ -141,6 +141,7 @@ section {
     height: auto;
     margin-bottom: 1.5rem;
 }
+
 .home-garden-image {
     align-self: center;
     max-width: 80%;
@@ -255,6 +256,12 @@ section {
 
 .gallery-text {
     padding-top: 1.5rem;
+}
+
+/*------------ Get In Touch Link ----*/
+
+.get-in-touch-link {
+    font-size: 1.6rem;
 }
 
 /*------------ Contact Page/Form ----*/
