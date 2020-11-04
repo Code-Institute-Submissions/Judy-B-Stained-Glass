@@ -41,7 +41,6 @@ body {
 .p-text {
     padding: 0.5rem;
     font-size: 1.5rem;
-    margin: 0;
 }
 
 section {
@@ -62,7 +61,7 @@ section {
 /*------------Logo----*/
 #logo {
     font-family: "Great Vibes", cursive;
-    font-size: 3.5rem;
+    font-size: 2.3rem; /*3.5rem*/
     color: #3D3D3D;
     padding: 0;
     text-shadow: 3px 3px 8px #3D3D3D;
@@ -307,7 +306,16 @@ section {
 }
 
 /*------------Media Queries----*/
+/*-- Small Screen--*/
+@media only screen and (min-width: 375px) {
+
+    #logo {
+        font-size: 3.5rem;
+        }
+}
+
 /*-- Medium Screen--*/
+
 @media only screen and (min-width: 768px) {
  
     .container-abstract {
@@ -346,6 +354,7 @@ section {
 
 /*-- Large Screen--*/
 @media only screen and (min-width: 992px) {
+
     #logo {
         font-size: 5rem;
     }
