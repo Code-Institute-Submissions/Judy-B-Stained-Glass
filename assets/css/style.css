@@ -1,5 +1,5 @@
 /*------------Google Fonts----*/
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Raleway:wght@400;500;600&display=swap');
 
 /*------------Global Styling----*/
 * {
@@ -192,6 +192,10 @@ section {
     margin-top: 1rem;
 }
 
+.contact-button {
+    margin-bottom: 3rem;
+}
+
 .home-page-buttons .btn:hover,
 .submit .btn:hover {
     opacity: 0.5;
@@ -310,7 +314,8 @@ section {
     background-color: rgba(256, 256, 256, 0.8);
     border-radius: .5rem;
     font-size: 1.6rem;
-    width: 6rem;
+    width: 7rem;
+    font-weight: 600;
 }
 
 .submit {
@@ -422,7 +427,11 @@ section {
     }
 
      #carousel-gallery {
-        padding-top: 4rem;
+        padding-top: 6rem;
+    }
+
+    .gallery-heading {
+        margin-bottom: 2rem;
     }
 
     .home-abstract-image {
@@ -436,7 +445,7 @@ section {
     } 
 
     #contact {
-        padding-top: 10rem;
+        padding-top: 12rem;
     }
 
     #contact-us-form {
