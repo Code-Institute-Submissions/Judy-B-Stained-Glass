@@ -175,8 +175,6 @@ Images are used throughout the site to show case the work and products available
 *	Product reviews.
 *	More product lines added.
 
-	
-
 
 # Technologies Used
 
@@ -190,6 +188,24 @@ Google Fonts
 
 Balsamiq – for creating the wireframes
 
+Git Hub
+
+Git Pod
+
+Git Pages
+
+Gimp 2.1 - for editing images and creating favicon.
+
+Tiny png - for compressing images
+
+Webaim contrast checker
+
+AutoPrefixer
+
+W3C validator
+
+W3C CSS validator
+
 
 
 # Testing
@@ -202,7 +218,7 @@ Links work
 
 Buttons work
 
-Different browser Testing – auto prefixer
+Different browser Testing
 
 Different device testing
 
@@ -221,6 +237,12 @@ Bugs found and not fixed
 # Deployment
 
 ## Git Hub Pages:
+
+From the Git hub repository for the project:
+ - Go to settings
+ - Scroll down to Git Hub Pages section
+ - Select branch to be deployed, in this case the master branch
+ - Click Save
 
 ## Creating A Local Clone:
 
