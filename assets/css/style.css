@@ -197,7 +197,7 @@ section {
 }
 
 .home-page-buttons .btn:hover,
-.submit .btn:hover {
+.submit:hover {
     opacity: 0.5;
 }
 
