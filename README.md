@@ -1,6 +1,8 @@
 # Judy B Stained Glass
 
-Link to live project
+Image
+
+[Link to live project](https://sharon-b.github.io/Judy-B-Stained-Glass/index.html)
 
 # Contents
 
@@ -238,13 +240,23 @@ Bugs found and not fixed
 
 ## Git Hub Pages:
 
-From the Git hub repository for the project:
+From the Git hub repository:
  - Go to settings
  - Scroll down to Git Hub Pages section
  - Select branch to be deployed, in this case the master branch
  - Click Save
 
 ## Creating A Local Clone:
+You can clone the repository to create a local copy on your computer.
+
+From the Git Hub repository:
+- Click Code, above the list of files
+- Click the clipboard icon to copy the url provided
+
+Open terminal:
+- Change the current working directory to be where you want the cloned directory
+- Type `git clone` and paste the url
+- Press enter and the clone will be created
 
 
 
