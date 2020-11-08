@@ -1,6 +1,6 @@
 # Judy B Stained Glass
 
-![hero image](/images/home-page/jbsg_3lamps_3.png "Image")
+![hero image](https://github.com/Sharon-B/Judy-B-Stained-Glass/blob/master/assets/images/home-page/jbsg_3lamps_3.png "Image")
 
 [Link to live project](https://sharon-b.github.io/Judy-B-Stained-Glass/index.html)
 
@@ -42,9 +42,7 @@
 
 # Project Summary
 
-This project aims to create an online presence for Judy B Stained Glass using a mobile first design 
-method and ensuring the site is fully responsive across all devices. The project will further the 
-users knowledge about Judy B Stained Glass as a business and the products & services it provides.
+This project aims to create an online presence for Judy B Stained Glass using a mobile first design method and ensuring the site is fully responsive across all devices. The project will further the users knowledge about Judy B Stained Glass as a business and the products & services it provides.
 
 # User Experience (UX) 
 
@@ -52,10 +50,7 @@ users knowledge about Judy B Stained Glass as a business and the products & serv
 
 ## Business Objectives
 
-Create an online presence for Judy B Stained Glass which will showcase the work of Judy B stained Glass. 
-Provide a place where users can browse and get in touch if they are interested in any of the pieces or 
-to commission a design. Allow users to access additional services such as repairs. 
-Develop a network of fellow stained glass artists.
+Create an online presence for Judy B Stained Glass which will showcase the work of Judy B stained Glass. Provide a place where users can browse and get in touch if they are interested in any of the pieces or to commission a custom design. Allow users to access additional services such as repairs. Develop a network of fellow stained glass artists.
 
 ### Target Audience:
 
@@ -114,8 +109,7 @@ This will be a Minimal Viable Product containing the most important core content
 
 #### Strategy/Scope Trade Off
 
-Providing Evening Classes was not deemed to have high feasibility at this time given current public health advice around Covid-19 and 
-so will not be included in the first release of the website.
+Providing Evening Classes was not deemed to have high feasibility at this time given current public health advice around Covid-19 and so will not be included in the first release of the website.
 
 # Structure
 
@@ -140,7 +134,26 @@ Wireframes for Mobile, Tablet & Desktop
  - [Garden](https://github.com/Sharon-B/Judy-B-Stained-Glass/blob/master/assets/documentation/wireframes/garden-wf.pdf)
  - [Contact](https://github.com/Sharon-B/Judy-B-Stained-Glass/blob/master/assets/documentation/wireframes/contact-wf.pdf)
 
-### Difference between final design and original wireframes:
+## Difference between final design and original wireframes:
+
+#### Home page: 
+
+On mobile devices the original wireframe had the buttons for navigating to the gallery pages on the image however during the build process it became apparent that this was distracting from the image itself and took away from the overall impact of the image.  It was decided to have the buttons at the bottom of each section instead. This way the buttons also serve as a divider between each section.
+
+On all devices headings were added to each section of the home page to give the user a better understanding of the layout and to allow them to find relevant information more quickly.
+
+On desktop devices it was decided to have the first image act as a hero image for the page to grab the users attention and give it full page width with a text paragraph under it. Also section dividers were added to distinguish between the different sections.
+
+On tablets it was decided to use the same layout as for desktop as this is more visually appealing and allows for better flow. The user is also able to access the information more easily.
+
+It was also decided to keep the social media icons in the centre of the footer for consistency across all devices on all pages.
+
+#### Gallery Pages - Lamps, Wall Art and Garden:
+
+A Contact Us button was added to the bottom of each of these pages across all devices as a call to action to encourage the user to get in touch. 
+
+#### Contact Page:
+A background image was added to the contact form to make it visually more interesting to the user. This also provides consistency across the entire site as all pages rely heavily on images.
 
 
 # Surface
@@ -155,28 +168,40 @@ Raleway is an elegant sans-serif typeface used for the main text content that pa
 
 The colour scheme is based on the current branding of the company. 
 
-![Colour palette](/images/uxd/jbsg_colour_palette)
+![Colour palette](/documentation/uxd/jbsg_colour_palette)
 
 #### Images: 
 
-Images are used throughout the site to show case the work and products available.
+Images are used throughout the site to show case the work created by Judy B Stained Glass and the products available.
 
 
 # Features 
 
--	Responsive on all device sizes
--	Interactive elements
--	Navigation menu
--	Buttons
--	Contact Form
--	Effects?
+-	Responsive on all devices
+
+-   Logo links to the home-page to ensure quick and easy access back to the home-page for users.
+
+-	Navigation Menu fixed at top on all devices to provide users with quick and easy access to the other pages of the site.
+
+-  The header has a box shadow applied to make it standout more giving and gives an almost 3D effect.
+
+-	On mobile devices buttons are also provided on the home page along with a fixed collapsible navigation menu at the top. This encourages users to interact with the rest of the site allowing users to quickly access the other pages.
+
+-	Contact Us button provided at the bottom of each page to encourage users to get in touch and interact with the business.
+
+-	Sliding Image carousel with controllers used for gallery pages. Descriptive caption provided under each image.
+
+-	Image thumbnails provided on tablet and desktop devices under the carousel to allow users to open a larger static image to view a piece in more detail.
+
+-	Contact Form with dropdown menu for subject line.
+
 
 ## Future Features
 
 *	Evening classes offered with booking system & timetable information
-*	Online shop
-*	Product reviews
-*	More product lines added
+*	Customer reviews
+*	More products and product lines added
+*	Develop into a full online shop
 
 
 # Technologies Used
@@ -203,9 +228,13 @@ Tiny png - for compressing images
 
 Webaim contrast checker
 
+Chrome Dev Tools
+
+Lighthouse in Chrome Dev Tools
+
 AutoPrefixer
 
-W3C validator
+W3C HTML validator
 
 W3C CSS validator
 
@@ -213,19 +242,59 @@ W3C CSS validator
 
 # Testing
 
-Code validators etc.
+## Code Validators & Auto prefixer:
 
-Links work
+CSS was passed through Auto Prefixer.
 
-Buttons work
+All html code was passed through the W3C Markup Validator. Results …
 
-Form Testing
+All Css was passed through the W3C CSS Validator. Results…
 
-Different browser Testing
+## Lighthouse Testing:
 
-Different device testing
+Lighthouse from Chrome Dev Tools results……
 
-Responsiveness testing
+## Links & Buttons Testing:
+
+Logo links to home-page this was tested manually from each page of the website. 
+
+Navigation Menu links – Home, Lamps, Wall Art, Garden & Contact were all individually manually tested from each page of the website to ensure the user is directed to the correct page.
+
+Buttons used on home page for mobile devices were tested manually to ensure they direct the user to the correct gallery page.
+
+Contact Us buttons used at the bottom of each page were tested manually to ensure they direct the user to the contact page.
+
+Get in touch text links were tested manually to ensure they direct the user to the contact page.
+
+Social Media links in the footer of each page were tested manually to ensure they direct the user to the correct page.
+
+Tested carousel controls left and right to ensure they moved the carousel along in the correct direction and that the captions also changed with the images.
+
+Tested clicking on each thumbnail to ensure it opens in it’s own tab.
+
+## Form Testing:
+
+Tested the submit button with no input fields filled in to ensure the form would not submit without the required fields filled in.
+
+Tested the Email field to ensure the form will not submit if an invalid entry is made in this field.
+
+Tested submitting the form without one of each of the required fields and the form will not submit without all fields filled in. All fields are required.
+
+## Different device testing:
+
+All aspects of the website mentioned above were also manually tested on the following devices:
+iPad 2, iPhone 8, Macbook Pro.
+
+## Browser Testing:
+
+All aspects of the website mentioned above were also manually tested on the following browsers:
+Chrome, Safari, Mozilla Firefox
+
+## Friends & Family User Testing:
+
+Feedback:
+Devices used:
+
 
 ## Testing User Stories
 
@@ -346,7 +415,7 @@ Responsiveness testing
 
 ## Further Testing
 
-Bugs found and fixed
+Bugs found and fixed:
 
 ## Known Bugs
 
@@ -355,13 +424,14 @@ Bugs found and not fixed:
 -	iPad Pro, main image stretched on home page
 -	Social Media links little black dot appears between them when hover over them
 -	Submit button for contact form goes to error page
+-	Horizontal scroll bar appears on gallery pages
 
 
 # Deployment
 
 ## Git Hub Pages:
 
-From the Git hub repository:
+From the Git Hub repository:
  - Go to settings
  - Scroll down to Git Hub Pages section
  - Select branch to be deployed, in this case the master branch
@@ -375,7 +445,7 @@ From the Git Hub repository:
 - Click the clipboard icon to copy the url provided
 
 Open terminal:
-- Change the current working directory to be where you want the cloned directory to be
+- Change the current working directory to where you want the cloned directory to be
 - Type `git clone` and paste the url after it
 - Press enter and the clone will be created
 
