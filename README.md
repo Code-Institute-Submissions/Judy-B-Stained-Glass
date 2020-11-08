@@ -168,6 +168,10 @@ The colour scheme is based on the current branding of the company.
 
 ![Colour palette](https://github.com/Sharon-B/Judy-B-Stained-Glass/blob/master/assets/documentation/uxd/jbsg_colour_palette.png)
 
+The font colour used is #3D3D3D, which was checked for contrast against the background colours using the Webaim contrast checker.
+
+![Font Colour](https://github.com/Sharon-B/Judy-B-Stained-Glass/blob/master/assets/documentation/uxd/jbsg_font_color.png)
+
 #### Images: 
 
 Images are used throughout the site to show case the work created by Judy B Stained Glass and the products available.
@@ -204,37 +208,37 @@ Images are used throughout the site to show case the work created by Judy B Stai
 
 # Technologies Used
 
-Html
+[Html](https://www.w3schools.com/html/) - Hyper Text Markup Language, used for creating the website.
 
-Css
+[Css](https://www.w3schools.com/css/) - Cascading Style Sheet, used for styling the website.
 
-Bootstrap
+[Bootstrap](https://getbootstrap.com/) 
 
-Google Fonts
+[Google Fonts](https://fonts.google.com/)
 
-Balsamiq – for creating the wireframes
+[Balsamiq](https://balsamiq.com/) – for creating the wireframes.
 
-Git Hub
+[GitHub](https://github.com/) - here the project repository is stored.
 
-Git Pod
+[Gitpod](https://www.gitpod.io/) IDE - where the site was built.
 
-Git Pages
+[GitHub Pages](https://pages.github.com/) - where the live site is deployed/hosted.
 
-Gimp 2.1 - for editing images and creating favicon.
+[Gimp 2.1](https://www.gimp.org/) - for editing images and creating favicon.
 
-Tiny png - for compressing images
+[Tiny png](https://tinypng.com/) - for compressing images
 
-Webaim contrast checker
+[Webaim contrast checker](https://webaim.org/resources/contrastchecker/)
 
-Chrome Dev Tools
+[Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools)
 
-Lighthouse in Chrome Dev Tools
+[Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome Dev Tools
 
-AutoPrefixer
+[AutoPrefixer](https://autoprefixer.github.io/)
 
-W3C HTML validator
+[W3C HTML validator](https://validator.w3.org/)
 
-W3C CSS validator
+[W3C CSS validator](https://jigsaw.w3.org/css-validator/)
 
 
 
