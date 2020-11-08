@@ -243,8 +243,8 @@ section {
 /* Code snippet W3 Schools https://www.w3schools.com/howto/howto_css_thumbnail.asp */
   .thumbnail {
     border: 1px solid #ddd;
-    margin-top: 1rem;
-    padding: 5px; 
+    margin-top: 5px;
+    padding: 1rem; 
     width: 120px; 
     height: 150px;
 }
@@ -258,7 +258,6 @@ section {
     width: 130px; 
     height: 220px;
 }
-
 
 /* Thumbnail hover effect - grey shadow */
 
