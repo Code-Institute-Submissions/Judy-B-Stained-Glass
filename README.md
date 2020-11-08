@@ -1,12 +1,14 @@
 # Judy B Stained Glass
 
-![hero image](https://github.com/Sharon-B/Judy-B-Stained-Glass/blob/master/assets/images/home-page/jbsg_3lamps_3.png "Image")
+![am i responsive image](https://github.com/Sharon-B/Judy-B-Stained-Glass/blob/master/assets/documentation/uxd/jbsg_amiresponsive.png "Responsive Image")
 
 [Link to live project](https://sharon-b.github.io/Judy-B-Stained-Glass/index.html)
 
-# Contents
+# Project Summary
 
-[Project Summary](#project-summary)
+This project aims to create an online presence for Judy B Stained Glass using a mobile first design method and ensuring the site is fully responsive across all devices. The project will further the users knowledge about Judy B Stained Glass as a business and the products & services it provides.
+
+# Contents
 
 [User Experience](#user-experience)
 
@@ -39,10 +41,6 @@
 [Credits](#credits)
 
 
-
-# Project Summary
-
-This project aims to create an online presence for Judy B Stained Glass using a mobile first design method and ensuring the site is fully responsive across all devices. The project will further the users knowledge about Judy B Stained Glass as a business and the products & services it provides.
 
 # User Experience (UX) 
 
@@ -168,7 +166,7 @@ Raleway is an elegant sans-serif typeface used for the main text content that pa
 
 The colour scheme is based on the current branding of the company. 
 
-![Colour palette](/documentation/uxd/jbsg_colour_palette)
+![Colour palette](https://github.com/Sharon-B/Judy-B-Stained-Glass/blob/master/assets/documentation/uxd/jbsg_colour_palette.png)
 
 #### Images: 
 
@@ -246,13 +244,19 @@ W3C CSS validator
 
 CSS was passed through Auto Prefixer.
 
-All html code was passed through the W3C Markup Validator. Results …
+All html code was passed through the W3C Markup Validator. No errors found.
 
-All Css was passed through the W3C CSS Validator. Results…
+Results...
+
+All Css was passed through the W3C CSS Validator. No errors found. 
+
+Results...
 
 ## Lighthouse Testing:
 
-Lighthouse from Chrome Dev Tools results……
+Lighthouse from Chrome Dev Tools:
+
+Results...
 
 ## Links & Buttons Testing:
 
@@ -448,7 +452,6 @@ Open terminal:
 - Change the current working directory to where you want the cloned directory to be
 - Type `git clone` and paste the url after it
 - Press enter and the clone will be created
-
 
 
 # Credits
