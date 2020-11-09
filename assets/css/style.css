@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /*------------Google Fonts----*/
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Raleway:wght@400;500;600&display=swap');
 
@@ -14,8 +21,13 @@
 /* Code Snippet:Kevin Powell: To prevent footer from floating on a short page: https://www.youtube.com/watch?v=yc2olxLgKLk (also set .footer {margin-top: auto;}) */
 body {
     min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 /*------------Background Colour----*/
 .bg-color-header {
@@ -84,7 +96,8 @@ section {
 /*------------Navigation----*/
 .navbar {
     border-radius: 0 0 3rem 3rem;
-    box-shadow: .3rem .3rem 1.2rem #3D3D3D;
+    -webkit-box-shadow: .3rem .3rem 1.2rem #3D3D3D;
+            box-shadow: .3rem .3rem 1.2rem #3D3D3D;
 }
 
 #navbarNav {
@@ -112,7 +125,8 @@ section {
 /*------------Footer----*/
 
 .footer {
-    flex-shrink: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
     min-height: 5.5rem;
     border-radius: 3rem 3rem 0 0;
 
@@ -153,14 +167,18 @@ section {
 }
 
 .home-abstract-image {
-    align-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
     max-width: 80%;
     height: auto;
     margin-bottom: 1.5rem;
 }
 
 .home-garden-image {
-    align-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
     max-width: 80%;
     height: auto;
     margin-bottom: 1.5rem;
@@ -175,7 +193,9 @@ section {
 
 .about {
     margin: 0 auto;
-    align-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
 }
 /*------------Repairs----*/
 
@@ -256,7 +276,8 @@ section {
 /* Thumbnail hover effect - grey shadow */
 
 .thumbnail:hover {
-  box-shadow: 0 0 2.5px 2px rgba(150, 150, 150, 0.5);
+  -webkit-box-shadow: 0 0 2.5px 2px rgba(150, 150, 150, 0.5);
+          box-shadow: 0 0 2.5px 2px rgba(150, 150, 150, 0.5);
 }
 /*End code snippet*/
 
@@ -274,6 +295,8 @@ section {
 
 .get-in-touch-link {
     font-size: 1.6rem;
+    font-weight: 600;
+    color: #3d3d3d;
 }
 
 /*------------ Contact Page/Form ----*/
@@ -295,7 +318,7 @@ section {
     width: 70%;
     border-radius: .75rem;
     border-width: .1rem;
-    background-color: rgba(256, 256, 256, 0.7);
+    background-color: rgba(255, 255, 255, 0.7);
     text-align: left;
     padding: .3rem;
     font-size: 1.6rem;
@@ -306,7 +329,7 @@ section {
 }
 
 .drop-label {
-    background-color: rgba(256, 256, 256, 0.8);
+    background-color: rgba(255, 255, 255, 0.8);
     border-radius: .5rem;
     font-size: 1.6rem;
     width: 7rem;
@@ -333,11 +356,15 @@ section {
 @media only screen and (min-width: 768px) {
  
     .container-abstract {
-        order: 1;
+        -webkit-box-ordinal-group: 2;
+            -ms-flex-order: 1;
+                order: 1;
     }
 
     .about-text {
-        order: 2;
+        -webkit-box-ordinal-group: 3;
+            -ms-flex-order: 2;
+                order: 2;
     }
 
     .home-abstract-image {
@@ -405,14 +432,21 @@ section {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+     transition-duration: 0.3s;
   -webkit-transition-property: box-shadow;
+  -webkit-transition-property: -webkit-box-shadow;
+  transition-property: -webkit-box-shadow;
+  -o-transition-property: box-shadow;
   transition-property: box-shadow;
+  transition-property: box-shadow, -webkit-box-shadow;
     }
 .hvr-shadow:hover, .hvr-shadow:focus, .hvr-shadow:active {
-  box-shadow: 0 1rem 1rem -1rem rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 1rem 1rem -1rem rgba(0, 0, 0, 0.5);
+          box-shadow: 0 1rem 1rem -1rem rgba(0, 0, 0, 0.5);
     }
 /* End Code Snippet */
 
