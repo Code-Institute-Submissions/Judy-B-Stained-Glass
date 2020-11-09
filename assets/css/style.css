@@ -35,12 +35,12 @@ body {
     font-size: 3.5rem;
     margin-top: 1rem;
     margin-left: 1.5rem;
-    text-shadow: 3px 3px 8px #3D3D3D;
+    text-shadow: .3rem .3rem .8rem #3D3D3D;
 }
 
 .p-text {
-    padding: 0.5rem;
-    font-size: 1.5rem;
+    padding: .5rem;
+    font-size: 1.6rem;
 }
 
 section {
@@ -55,7 +55,7 @@ section {
 /*------------Section Dividers----*/
 .section-divider {
     width: 18rem;
-    height: 0.5rem;
+    height: .5rem;
     border: 0;
     border-radius: 1rem;
     background-color: #F1D6D0;
@@ -64,7 +64,7 @@ section {
 
 .carousel-divider {
     width: 18rem;
-    height: 0.5rem;
+    height: .5rem;
     border: 0;
     border-radius: 1rem;
     background-color: #F1D6D0;
@@ -77,14 +77,14 @@ section {
     font-size: 2.3rem; /*3.5rem*/
     color: #3D3D3D;
     padding: 0;
-    text-shadow: 3px 3px 8px #3D3D3D;
-    margin-left: 0.5rem;
+    text-shadow: .3rem .3rem .8rem #3D3D3D;
+    margin-left: .5rem;
 }
 
 /*------------Navigation----*/
 .navbar {
-    border-radius: 0 0 30px 30px;
-    box-shadow: 3px 3px 12px #3D3D3D;
+    border-radius: 0 0 3rem 3rem;
+    box-shadow: .3rem .3rem 1.2rem #3D3D3D;
 }
 
 #navbarNav {
@@ -113,8 +113,8 @@ section {
 
 .footer {
     flex-shrink: 0;
-    min-height: 55px;
-    border-radius: 30px 30px 0 0;
+    min-height: 5.5rem;
+    border-radius: 3rem 3rem 0 0;
 
     margin-top: auto;  /* Code snippet mentioned earlier to prevent footer floating on a short page: https://www.youtube.com/watch?v=yc2olxLgKLk */
 }
@@ -247,20 +247,10 @@ section {
 /* Code snippet W3 Schools https://www.w3schools.com/howto/howto_css_thumbnail.asp */
   .thumbnail {
     border: 1px solid #ddd;
-    margin-top: 5px;
+    margin-top: .5rem;
     padding: 1rem; 
-    width: 120px; 
-    height: 150px;
-}
-
-.wallart1-thumbnail { 
-    width: 150px; 
-    height: 150px;
-}
-
-.wallart2-thumbnail { 
-    width: 130px; 
-    height: 220px;
+    width: auto; 
+    height: 12rem;
 }
 
 /* Thumbnail hover effect - grey shadow */
@@ -295,7 +285,7 @@ section {
     background-image: url(../images/contact/jbsg_curved_pavers.png);
     background-repeat: repeat;
     background-position: center center;
-    border-radius: 5px;
+    border-radius: .5rem;
     margin: 1rem;
     padding: 1.6rem 0;
 }
@@ -303,10 +293,10 @@ section {
 .form-input {
     width: 70%;
     border-radius: .75rem;
-    border-width: 1px;
+    border-width: .1rem;
     background-color: rgba(256, 256, 256, 0.7);
     text-align: left;
-    padding: 3px;
+    padding: .3rem;
     font-size: 1.6rem;
 }
 
@@ -325,7 +315,7 @@ section {
 .submit {
     width: 6rem;
     background-color: rgb(241, 214, 208);
-    border-width: 1px;
+    border-width: .1rem;
 }
 
 /*------------Media Queries----*/
@@ -362,7 +352,7 @@ section {
     .social-icon-links li a {
         padding-left: 1rem;
     }
-    
+
     .gallery {
         margin-top: 1rem;
     }
@@ -421,7 +411,7 @@ section {
   transition-property: box-shadow;
     }
 .hvr-shadow:hover, .hvr-shadow:focus, .hvr-shadow:active {
-  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1rem 1rem -1rem rgba(0, 0, 0, 0.5);
     }
 /* End Code Snippet */
 
