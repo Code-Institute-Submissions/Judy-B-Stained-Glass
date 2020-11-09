@@ -270,6 +270,7 @@ Initial report reccomended:
 
 Final report after making the above improvements:
 
+![final lighthouse report](https://github.com/Sharon-B/Judy-B-Stained-Glass/blob/master/assets/documentation/uxd/jbsg_final_lighthouse_report.png "Lighthouse Report")
 
 
 ## Links & Buttons Testing:
@@ -445,6 +446,8 @@ On the contact form the submit button was causing an Error Code 501 page to appe
 Bugs found and not fixed:
 
 - Serve static assets with an efficient cache policy came up while using the lighthouse testing in Chrome Dev Tools. After looking researching this I believe it is beyond my knowledge base at the moment to resolve this.
+
+- Serve images in next-gen formats, also came up in the lighthouse report.
 
 # Deployment
 
