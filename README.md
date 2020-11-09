@@ -6,7 +6,7 @@
 
 # Project Summary
 
-This project aims to create an online presence for Judy B Stained Glass using a mobile first design method and ensuring the site is fully responsive across all devices. The project will further the users knowledge about Judy B Stained Glass as a business and the products & services it provides.
+This website aims to create an online presence for Judy B Stained Glass using a mobile first design method and ensuring the site is fully responsive across all devices. The project will further the users knowledge about Judy B Stained Glass as a business and the products & services it provides.
 
 # Contents
 
@@ -113,9 +113,7 @@ Providing Evening Classes was not deemed to have high feasibility at this time g
 
 ### Interaction Design: 
 
-User interactions will be intuitive and allow for easy navigation throughout the site. For mobile devices this will use a combination 
-of a collapsed navigation menu and buttons on the home page to encourage user interaction with the rest of the site. For larger devices a fixed top 
-navigation menu will provide clear and easy access to all other pages.
+User interactions will be intuitive and allow for easy navigation throughout the site. For mobile devices this will use a combination of a collapsed navigation menu and buttons on the home page to encourage user interaction with the rest of the site. For larger devices a fixed top navigation menu will provide clear and easy access to all other pages.
 
 
 ### Information Design: 
@@ -212,33 +210,35 @@ Images are used throughout the site to show case the work created by Judy B Stai
 
 [Css](https://www.w3schools.com/css/) - Cascading Style Sheet, used for styling the website.
 
-[Bootstrap](https://getbootstrap.com/) - Bootstrap grid system, navigation bar and carousel.
+[Bootstrap](https://getbootstrap.com/) - Bootstrap grid system, navigation bar and carousel. Some inline bootstrap classes were also used.
 
 [Google Fonts](https://fonts.google.com/)
 
-[Balsamiq](https://balsamiq.com/) – for creating the wireframes.
+[Balsamiq](https://balsamiq.com/) – Used for creating the wireframes.
 
-[GitHub](https://github.com/) - here the project repository is stored.
+[Git](https://git-scm.com/) - Used for version control.
 
-[Gitpod](https://www.gitpod.io/) IDE - where the site was built.
+[GitHub](https://github.com/) - Used to store the project repository.
 
-[GitHub Pages](https://pages.github.com/) - where the live site is deployed/hosted.
+[Gitpod](https://www.gitpod.io/) IDE - Development environment where the site was built.
 
-[Gimp 2.1](https://www.gimp.org/) - for editing images and creating favicon.
+[GitHub Pages](https://pages.github.com/) - Where the live site is deployed/hosted.
 
-[Tiny png](https://tinypng.com/) - for compressing images
+[Gimp 2.1](https://www.gimp.org/) - Used for editing, scaling images and creating a favicon.
 
-[Webaim contrast checker](https://webaim.org/resources/contrastchecker/)
+[Tiny png](https://tinypng.com/) - Used for compressing images.
 
-[Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools)
+[Webaim contrast checker](https://webaim.org/resources/contrastchecker/) - Used to check the contrast between the text font and background colours.
 
-[Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome Dev Tools
+[Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools) - used throughout the development of the website to quickly see changes and find problems.
 
-[AutoPrefixer](https://autoprefixer.github.io/)
+[Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome Dev Tools.
 
-[W3C HTML validator](https://validator.w3.org/)
+[AutoPrefixer](https://autoprefixer.github.io/) - Used too add vendor prefixes onto the CSS code to ensure compatibility with various browsers.
 
-[W3C CSS validator](https://jigsaw.w3.org/css-validator/)
+[W3C HTML validator](https://validator.w3.org/) - Used to validate code.
+
+[W3C CSS validator](https://jigsaw.w3.org/css-validator/) - Used to validate code.
 
 [Coolors](https://coolors.co/)
 
@@ -246,23 +246,31 @@ Images are used throughout the site to show case the work created by Judy B Stai
 
 # Testing
 
-## Code Validators & Auto prefixer:
+## Code Validators & Auto Prefixer:
 
-CSS was passed through Auto Prefixer.
+CSS was passed through Auto Prefixer to add vendor prefixes:
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
 
-All html code was passed through the W3C Markup Validator. No errors found.
 
-Results...
+All HTML code was passed through the W3C Markup Validator. No errors found.
 
-All Css was passed through the W3C CSS Validator. No errors found. 
+All CSS was passed through the W3C CSS Validator. No errors found and 29 warnings all relating to vendor prefixes, once investigated on Stack Overflow and Slack decided it is ok to leave these.
 
-Results...
 
-## Lighthouse Testing:
+## Lighthouse from Chrome Dev Tools Testing:
 
-Lighthouse from Chrome Dev Tools:
+Initial report reccomended: 
 
-Results...
+- Adding a meta description in the head element of each page to enhance search engine optimisation.
+- Updating the text for 'get in touch' links in text to ensure proper contrast.
+- Adding rel="noopener" to links to cross origin destinations. This was added to all links to social media sites.
+
+Final report after making the above improvements:
+
+
 
 ## Links & Buttons Testing:
 
@@ -290,7 +298,7 @@ Tested the Email field to ensure the form will not submit if an invalid entry is
 
 Tested submitting the form without one of each of the required fields and the form will not submit without all fields filled in. All fields are required.
 
-## Different device testing:
+## Device testing:
 
 All aspects of the website mentioned above were also manually tested on the following devices:
 iPad 2, iPhone 8, Macbook Pro.
@@ -302,9 +310,9 @@ Chrome, Safari, Mozilla Firefox
 
 ## Friends & Family User Testing:
 
-Feedback:
+Feedback: "works well and easy to get around" "looks great" "really like the colours used"
 
-Devices used:
+Devices used: iPad Pro, iPhone 8 Plus, Laptop (windows running the Chrome browser), 
 
 ## Testing User Stories
 
@@ -321,7 +329,7 @@ Devices used:
 
 -	Navigation menu always visible on tablet and desktop devices providing easily accessible navigation throughout the whole site.
 -	On mobile devices there is a collapsible navigation menu on all pages for easy navigation throughout the site. On the home page this is used in combination with call to action buttons to direct users to the relevant pages.
--	On all devices there is a contact us button at the bottom of each page as a call to action to get in touch with the business
+-	On all devices there is a contact us button at the bottom of each page as a call to action to get in touch with the business.
 
 3.	As a user I want to learn about the background of the business so that I can feel assured using the site/business.
 
@@ -436,7 +444,7 @@ On the contact form the submit button was causing an Error Code 501 page to appe
 
 Bugs found and not fixed:
 
--	iPad Pro, main image stretched on home page
+- Serve static assets with an efficient cache policy came up while using the lighthouse testing in Chrome Dev Tools. After looking researching this I believe it is beyond my knowledge base at the moment to resolve this.
 
 # Deployment
 
@@ -465,6 +473,10 @@ Open terminal:
 
 ## Code
 
+[Bootstrap Nav Bar with Links](https://getbootstrap.com/docs/4.5/components/navbar/). Bootstrap navbar used with some modifications.
+
+[Bootstrap Carousel with controls](https://getbootstrap.com/docs/4.5/components/carousel/). Bootstrap carousel used with some modifications.
+
 Code snippet 1: 
 W3 Schools [How To Create A thumbnail Image](https://www.w3schools.com/howto/howto_css_thumbnail.asp). Code added to both HTML and CSS to create thumbnail images.
 
@@ -476,19 +488,21 @@ Code Snippet 4: [Ian Lunn - Hover.css](https://ianlunn.github.io/Hover/). Code a
 
 ## Resources
 
-Code Institute course material and mini projects form the main resource for this project.
+[Code Institute](https://codeinstitute.net) course material and mini projects form the main resource for this project.
 
-[Invision Article](https://www.invisionapp.com/inside-design/pros-and-cons-of-hamburger-menus/) - Pros and Cons of Hamburger Menus
+[Invision Article](https://www.invisionapp.com/inside-design/pros-and-cons-of-hamburger-menus/) - Pros and Cons of Hamburger Menus.
 
-[Engage Interactive Article](https://engageinteractive.co.uk/blog/em-vs-rem-vs-px) - EM vs REM vs PX
+[Engage Interactive Article](https://engageinteractive.co.uk/blog/em-vs-rem-vs-px) - EM vs REM vs PX.
 
-[Bootstrap Documentation](https://getbootstrap.com/docs/4.1/getting-started/introduction/) - General resource
+[Bootstrap Documentation](https://getbootstrap.com/docs/4.1/getting-started/introduction/) - General resource.
 
-[W3Schools](https://www.w3schools.com/) - General resource
+[W3Schools](https://www.w3schools.com/) - General resource.
 
-[MDN web docs](https://developer.mozilla.org/en-US/) - General resource
+[MDN web docs](https://developer.mozilla.org/en-US/) - General resource.
 
-[Anna Gilhespy Bootstrap 4 Grid Tutorial](https://www.youtube.com/watch?v=zDpCejbl1sU)  - excellent resource for gaining a greater understanding of the Bootstrap Grid system.
+[CSS Tricks](https://css-tricks.com/) - General resource.
+ 
+[Anna Gilhespy Bootstrap4 Grid Tutorial](https://www.youtube.com/watch?v=zDpCejbl1sU)  - resource for gaining a greater understanding of the Bootstrap Grid system.
 
 
 
@@ -502,3 +516,11 @@ All text content is written by myself in association with Judy B Stained Glass.
 All images used belong to Judy B Stained Glass.
 
 ## Acknowledgements
+
+My mentor @spence_mentor for great support and positivity.
+
+All at Code Institute and Tutor support.
+
+The Slack Community for their ever present knowledge.
+
+@JimLynx_lead for creating some great informative content especially the MS1 Planning call and the Git Basics Call.
