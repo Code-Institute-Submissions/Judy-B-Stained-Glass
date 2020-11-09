@@ -240,7 +240,7 @@ Images are used throughout the site to show case the work created by Judy B Stai
 
 [W3C CSS validator](https://jigsaw.w3.org/css-validator/) - Used to validate code.
 
-[Coolors](https://coolors.co/)
+[Coolors](https://coolors.co/) - Used for selecting complimentary colour palettes.
 
 
 
@@ -526,4 +526,4 @@ All at Code Institute and Tutor support.
 
 The Slack Community for their ever present knowledge.
 
-@JimLynx_lead for creating some great informative content especially the MS1 Planning call and the Git Basics Call.
+@JimLynx_lead for creating some great informative content especially the MS1 Planning Call and the Git Basics Call.
