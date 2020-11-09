@@ -270,7 +270,7 @@ Initial report reccomended:
 
 Final report after making the above improvements:
 
-![final lighthouse report](https://github.com/Sharon-B/Judy-B-Stained-Glass/blob/master/assets/documentation/uxd/jbsg_final_lighthouse_report.png "Lighthouse Report")
+![final lighthouse report](https://github.com/Sharon-B/Judy-B-Stained-Glass/blob/master/assets/documentation/testing/jbsg_final_lighthouse_report.png "Lighthouse Report")
 
 
 ## Links & Buttons Testing:
