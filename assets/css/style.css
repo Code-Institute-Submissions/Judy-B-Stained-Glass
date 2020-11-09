@@ -11,7 +11,7 @@
     text-decoration: none;
     text-align: center;
 }
-/* Code Snippet:Kevin Powell: To prevent footer from floating on a short page: https://www.youtube.com/watch?v=yc2olxLgKLk (also set .footer {margin-top: auto; */
+/* Code Snippet:Kevin Powell: To prevent footer from floating on a short page: https://www.youtube.com/watch?v=yc2olxLgKLk (also set .footer {margin-top: auto;}) */
 body {
     min-height: 100vh;
     display: flex;
@@ -258,6 +258,7 @@ section {
 .thumbnail:hover {
   box-shadow: 0 0 2.5px 2px rgba(150, 150, 150, 0.5);
 }
+/*End code snippet*/
 
 .thumbnail-links li {
     display: inline;

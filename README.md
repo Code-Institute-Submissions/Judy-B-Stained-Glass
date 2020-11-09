@@ -212,7 +212,7 @@ Images are used throughout the site to show case the work created by Judy B Stai
 
 [Css](https://www.w3schools.com/css/) - Cascading Style Sheet, used for styling the website.
 
-[Bootstrap](https://getbootstrap.com/) 
+[Bootstrap](https://getbootstrap.com/) - Bootstrap grid system, navigation bar and carousel.
 
 [Google Fonts](https://fonts.google.com/)
 
@@ -239,6 +239,8 @@ Images are used throughout the site to show case the work created by Judy B Stai
 [W3C HTML validator](https://validator.w3.org/)
 
 [W3C CSS validator](https://jigsaw.w3.org/css-validator/)
+
+[Coolors](https://coolors.co/)
 
 
 
@@ -301,11 +303,10 @@ Chrome, Safari, Mozilla Firefox
 ## Friends & Family User Testing:
 
 Feedback:
+
 Devices used:
 
-
 ## Testing User Stories
-
 
 1.  As a user I want to be able to see samples of the work provided by the business so that I can feel confident doing business with them.
 
@@ -420,20 +421,22 @@ Devices used:
 -	Regularly updating and developing the site to maintain and create more interest.
 -	Social media links provided and can be used as a place to interact regularly with users, other stained glass artists and enthusiasts.
 
+## Implementation Issues/Solutions:
+		
+When I first started working on the home page I wanted to see how it would look if I used a side by side layout for the image and text for the About and Background sections on mobile. However once I added the updated text I realised this would not work visually. I then decided to go back to the original wireframe design. In order to this I created a new branch called `new_home_layout_sm` so I could develop the new look fully and then merged it into my master branch.
 
-## Further Testing
+I was having an issue with overflow on the gallery pages where a horizontal scroll bar would appear at the bottom of the page. This only affected tablet and desktop devices. I used Chrome Dev Tools to investigate what was causing it, by deleting each element one by one until the overflow disappeared. I discovered that my gallery-thumbnails div was causing the problem. I wrapped the gallery-thumbnails div in a container and this resolved it.
 
-Bugs found and fixed:
+Footer was not sitting at the bottom of the page for those pages that were shorter than the viewport height. I researched into this on Stack Overflow and tried a couple of options however I was still having an issue that if I added padding to the top or bottom of an element the footer would jump up again by the amount of padding added. Eventually I found a solution that worked from [Kevin Powel’s You Tube video](https://www.youtube.com/watch?v=yc2olxLgKLk) – Stop a footer from floating up on a short page.
+
+On the contact form the submit button was causing an Error Code 501 page to appear. I researched this on Slack and discovered that for MS1 it is not necessary to include the action and method attributes in the form element, so I left these attributes empty.
+
 
 ## Known Bugs
 
 Bugs found and not fixed:
 
 -	iPad Pro, main image stretched on home page
--	Social Media links little black dot appears between them when hover over them
--	Submit button for contact form goes to error page
--	Horizontal scroll bar appears on gallery pages
-
 
 # Deployment
 
@@ -454,13 +457,40 @@ From the Git Hub repository:
 
 Open terminal:
 - Change the current working directory to where you want the cloned directory to be
-- Type `git clone` and paste the url after it
+- Type `git clone` and paste the copied url after it
 - Press enter and the clone will be created
 
 
 # Credits
 
 ## Code
+
+Code snippet 1: 
+W3 Schools [How To Create A thumbnail Image](https://www.w3schools.com/howto/howto_css_thumbnail.asp). Code added to both HTML and CSS to create thumbnail images.
+
+Code Snippet 2: [Kevin Powell: To prevent footer from floating on a short page](https://www.youtube.com/watch?v=yc2olxLgKLk). Code added to CSS.
+
+Code Snippet 3: [Change colour of controls StackOverflow, User: Frank A.](https://stackoverflow.com/questions/46249541/change-arrow-colors-in-bootstraps-carousel). Code added to CSS
+
+Code Snippet 4: [Ian Lunn - Hover.css](https://ianlunn.github.io/Hover/). Code added to CSS and hvr-shadow class added to nav-links in HTML.
+
+## Resources
+
+Code Institute course material and mini projects form the main resource for this project.
+
+[Invision Article](https://www.invisionapp.com/inside-design/pros-and-cons-of-hamburger-menus/) - Pros and Cons of Hamburger Menus
+
+[Engage Interactive Article](https://engageinteractive.co.uk/blog/em-vs-rem-vs-px) - EM vs REM vs PX
+
+[Bootstrap Documentation](https://getbootstrap.com/docs/4.1/getting-started/introduction/) - General resource
+
+[W3Schools](https://www.w3schools.com/) - General resource
+
+[MDN web docs](https://developer.mozilla.org/en-US/) - General resource
+
+[Anna Gilhespy Bootstrap 4 Grid Tutorial](https://www.youtube.com/watch?v=zDpCejbl1sU)  - excellent resource for gaining a greater understanding of the Bootstrap Grid system.
+
+
 
 ## Content
 
@@ -469,6 +499,6 @@ All text content is written by myself in association with Judy B Stained Glass.
 
 ## Media
 
-All images used are belong to Judy B Stained Glass.
+All images used belong to Judy B Stained Glass.
 
 ## Acknowledgements
