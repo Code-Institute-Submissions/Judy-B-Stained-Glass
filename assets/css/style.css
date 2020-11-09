@@ -419,7 +419,7 @@ section {
     .main-home-image {
         margin-top: 9rem;
         width: auto;
-        height: 70vh;
+        max-height: 70vh;
     }
 
     .heading {
