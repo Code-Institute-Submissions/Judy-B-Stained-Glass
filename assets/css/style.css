@@ -324,18 +324,6 @@ section {
     font-size: 1.6rem;
 }
 
-#subject {
-    width: 50%;
-}
-
-.drop-label {
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: .5rem;
-    font-size: 1.6rem;
-    width: 7rem;
-    font-weight: 600;
-}
-
 .submit {
     width: 6rem;
     background-color: rgb(241, 214, 208);
@@ -399,10 +387,6 @@ section {
 
     .form-input {
         width: 40%;
-    }
-
-    #subject {
-        width: 30%;
     }
 }
 
