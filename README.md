@@ -156,7 +156,7 @@ A background image was added to the contact form to make it visually more intere
 
 #### Typography:
 
-Great Vibes is used for the main logo it’s cursive flowing style gives a creative and artistic feel to the site.
+Great Vibes is used for the main logo it’s cursive flowing style giving a creative and artistic feel to the site.
 
 Raleway is an elegant sans-serif typeface used for the main text content that pairs well with Great Vibes.
 
@@ -295,7 +295,7 @@ Tested the submit button with no input fields filled in to ensure the form would
 
 Tested the Email field to ensure the form will not submit if an invalid entry is made in this field.
 
-Tested submitting the form without one of each of the required fields and the form will not submit without all fields filled in. All fields are required.
+Tested submitting the form without one of each of the required fields and the form will not submit without all required fields filled in.
 
 ## Device testing:
 
@@ -442,7 +442,7 @@ On the contact form the submit button was causing an Error Code 501 page to appe
 
 Bugs found and not fixed:
 
-- Serve static assets with an efficient cache policy came up while running the lighthouse testing in Chrome Dev Tools. After looking researching this I believe it is beyond my knowledge base at the moment to resolve this.
+- Serve static assets with an efficient cache policy came up while running the lighthouse report in Chrome Dev Tools. After researching this I believe it is beyond my knowledge base at the moment to resolve this.
 
 - Serve images in next-gen formats, also came up in the lighthouse report.
 
@@ -482,7 +482,7 @@ W3 Schools [How To Create A thumbnail Image](https://www.w3schools.com/howto/how
 
 Code Snippet 2: [Kevin Powell: To prevent footer from floating on a short page](https://www.youtube.com/watch?v=yc2olxLgKLk). Code added to CSS.
 
-Code Snippet 3: [Change colour of controls StackOverflow, User: Frank A.](https://stackoverflow.com/questions/46249541/change-arrow-colors-in-bootstraps-carousel). Code added to CSS
+Code Snippet 3: [Change colour of controls StackOverflow, User: Frank A.](https://stackoverflow.com/questions/46249541/change-arrow-colors-in-bootstraps-carousel). Code added to CSS - modified the fill % and colour.
 
 Code Snippet 4: [Ian Lunn - Hover.css](https://ianlunn.github.io/Hover/). Code added to CSS and hvr-shadow class added to nav-links in HTML.
 
@@ -502,13 +502,13 @@ Code Snippet 4: [Ian Lunn - Hover.css](https://ianlunn.github.io/Hover/). Code a
 
 [CSS Tricks](https://css-tricks.com/) - General resource.
  
-[Anna Gilhespy Bootstrap4 Grid Tutorial](https://www.youtube.com/watch?v=zDpCejbl1sU)  - resource for gaining a greater understanding of the Bootstrap Grid system.
+[Anna Gilhespy Bootstrap4 Grid Tutorial](https://www.youtube.com/watch?v=zDpCejbl1sU)  - Resource for gaining a greater understanding of the Bootstrap Grid system.
 
-[How to add a favicon](https://www.101computing.net/html-how-to-add-a-favicon/)
+[How to add a favicon](https://www.101computing.net/html-how-to-add-a-favicon/) - Used to learn how to add a favicon.
 
-[Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+[Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) - Used to learn how to write in markdown for creating the README.md.
 
-[web.dev](https://web.dev/) - used for researching issues that arose from running the lighthouse report in Chrome Dev Tools. In particular:
+[web.dev](https://web.dev/) - Used for researching issues that arose from running the lighthouse report in Chrome Dev Tools. In particular:
 
 - [Links to cross-origin destinations are unsafe](https://web.dev/external-anchors-use-rel-noopener/?utm_source=lighthouse&utm_medium=devtools)
 
@@ -519,12 +519,9 @@ Code Snippet 4: [Ian Lunn - Hover.css](https://ianlunn.github.io/Hover/). Code a
 - [Serve static assets with an efficient cache policy](https://web.dev/uses-long-cache-ttl/)
 
 
-
-
 ## Content
 
 All text content is written by myself in association with Judy B Stained Glass.
-
 
 ## Media
 
@@ -537,5 +534,7 @@ My mentor @spence_mentor for great support and positivity.
 All at Code Institute and Tutor support.
 
 The Slack Community for their ever present knowledge.
+
+@Lucyjpjones for suggesting an update for the subject line of the contact form.
 
 @JimLynx_lead for creating some great informative content especially the MS1 Planning Call and the Git Basics Call.
