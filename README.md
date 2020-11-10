@@ -118,8 +118,7 @@ User interactions will be intuitive and allow for easy navigation throughout the
 
 ### Information Design: 
 
-Will allow for the prioritisation of the information to be displayed in a clear and concise manner to make it as easy as possible for the user 
-to read and to quickly find the information that is most relevant to their needs.
+Will allow for the prioritisation of the information to be displayed in a clear and concise manner to make it as easy as possible for the user to read and to quickly find the information that is most relevant to their needs.
 
 # Skeleton
 
@@ -198,10 +197,11 @@ Images are used throughout the site to show case the work created by Judy B Stai
 
 ## Future Features
 
-*	Evening classes offered with booking system & timetable information
-*	Customer reviews
-*	More products and product lines added
-*	Develop into a full online shop
+*	Evening classes offered with booking system & timetable information.
+*   Ability for users to upload images of items for repair as part of the contact form.
+*	Customer reviews.
+*	More products and product lines added.
+*	Develop into a full online shop.
 
 
 # Technologies Used
@@ -212,7 +212,7 @@ Images are used throughout the site to show case the work created by Judy B Stai
 
 [Bootstrap](https://getbootstrap.com/) - Bootstrap grid system, navigation bar and carousel. Some inline bootstrap classes were also used.
 
-[Google Fonts](https://fonts.google.com/)
+[Google Fonts](https://fonts.google.com/) - The 2 fonts used throughout the website are from Gooogle fonts.
 
 [Balsamiq](https://balsamiq.com/) – Used for creating the wireframes.
 
@@ -230,7 +230,7 @@ Images are used throughout the site to show case the work created by Judy B Stai
 
 [Webaim contrast checker](https://webaim.org/resources/contrastchecker/) - Used to check the contrast between the text font and background colours.
 
-[Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools) - Used throughout the development of the website to quickly see changes and find problems. Used to view website on different devices.
+[Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools) - Used throughout the development of the website to quickly see changes and find problems. Also used to view website in different device views.
 
 [Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome Dev Tools.
 
@@ -283,7 +283,7 @@ Contact Us buttons used at the bottom of each page were tested manually to ensur
 
 Get in touch text links were tested manually to ensure they direct the user to the contact page.
 
-Social Media links in the footer of each page were tested manually to ensure they direct the user to the correct page.
+Social Media links in the footer of each page were tested manually to ensure they direct the user to the correct page. As currently the business does not have any active social media sites these links point to the main page for each platform eg. facebook.com etc.
 
 Tested carousel controls left and right to ensure they moved the carousel along in the correct direction and that the captions also changed with the images.
 
@@ -435,7 +435,7 @@ I was having an issue with overflow on the gallery pages where a horizontal scro
 
 Footer was not sitting at the bottom of the page for those pages that were shorter than the viewport height. I researched into this on Stack Overflow and tried a couple of options however I was still having an issue that if I added padding to the top or bottom of an element the footer would jump up again by the amount of padding added. Eventually I found a solution that worked from [Kevin Powel’s You Tube video](https://www.youtube.com/watch?v=yc2olxLgKLk) – Stop a footer from floating up on a short page.
 
-On the contact form the submit button was causing an Error Code 501 page to appear. I researched this on Slack and discovered that for MS1 it is not necessary to include the action and method attributes in the form element, so I left these attributes empty.
+On the contact form the submit button was causing an Error Code 501 page to appear. I researched this on Slack and discovered that for MS1 it is not necessary to include the action and method attributes in the form element, so I removed these attributes.
 
 
 ## Known Bugs
@@ -508,6 +508,8 @@ Code Snippet 4: [Ian Lunn - Hover.css](https://ianlunn.github.io/Hover/). Code a
 
 [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) - Used to learn how to write in markdown for creating the README.md.
 
+Anna Greaves How to Approach Writing Your README File webinar.
+
 [web.dev](https://web.dev/) - Used for researching issues that arose from running the lighthouse report in Chrome Dev Tools. In particular:
 
 - [Links to cross-origin destinations are unsafe](https://web.dev/external-anchors-use-rel-noopener/?utm_source=lighthouse&utm_medium=devtools)
@@ -537,4 +539,4 @@ The Slack Community for their ever present knowledge.
 
 @Lucyjpjones for suggesting an update for the subject line of the contact form.
 
-@JimLynx_lead for creating some great informative content especially the MS1 Planning Call and the Git Basics Call.
+@JimLynx_lead & @anna_ci for creating some great informative content especially the MS1 Planning Call and the Git Basics Call and the How to Approach Writing Your README File webinar.
