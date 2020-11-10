@@ -230,7 +230,7 @@ Images are used throughout the site to show case the work created by Judy B Stai
 
 [Webaim contrast checker](https://webaim.org/resources/contrastchecker/) - Used to check the contrast between the text font and background colours.
 
-[Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools) - used throughout the development of the website to quickly see changes and find problems.
+[Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools) - Used throughout the development of the website to quickly see changes and find problems. Used to view website on different devices.
 
 [Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome Dev Tools.
 
@@ -241,8 +241,6 @@ Images are used throughout the site to show case the work created by Judy B Stai
 [W3C CSS validator](https://jigsaw.w3.org/css-validator/) - Used to validate code.
 
 [Coolors](https://coolors.co/) - Used for selecting complimentary colour palettes.
-
-
 
 # Testing
 
@@ -311,9 +309,8 @@ Chrome, Safari, Mozilla Firefox
 
 ## Friends & Family User Testing:
 
-Feedback: "works well and easy to get around" "looks great" "really like the colours used"
-
-Devices used: iPad Pro, iPhone 8 Plus, Laptop (windows running the Chrome browser), 
+The general feedback was that the site looks well and is easy to navigate around.
+Devices used: iPad Pro, iPhone 8 Plus, Laptop (windows running the Chrome browser).
 
 ## Testing User Stories
 
@@ -445,7 +442,7 @@ On the contact form the submit button was causing an Error Code 501 page to appe
 
 Bugs found and not fixed:
 
-- Serve static assets with an efficient cache policy came up while using the lighthouse testing in Chrome Dev Tools. After looking researching this I believe it is beyond my knowledge base at the moment to resolve this.
+- Serve static assets with an efficient cache policy came up while running the lighthouse testing in Chrome Dev Tools. After looking researching this I believe it is beyond my knowledge base at the moment to resolve this.
 
 - Serve images in next-gen formats, also came up in the lighthouse report.
 
@@ -506,6 +503,21 @@ Code Snippet 4: [Ian Lunn - Hover.css](https://ianlunn.github.io/Hover/). Code a
 [CSS Tricks](https://css-tricks.com/) - General resource.
  
 [Anna Gilhespy Bootstrap4 Grid Tutorial](https://www.youtube.com/watch?v=zDpCejbl1sU)  - resource for gaining a greater understanding of the Bootstrap Grid system.
+
+[How to add a favicon](https://www.101computing.net/html-how-to-add-a-favicon/)
+
+[Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+[web.dev](https://web.dev/) - used for researching issues that arose from running the lighthouse report in Chrome Dev Tools. In particular:
+
+- [Links to cross-origin destinations are unsafe](https://web.dev/external-anchors-use-rel-noopener/?utm_source=lighthouse&utm_medium=devtools)
+
+- [Background and foreground colors do not have a sufficient contrast ratio](https://web.dev/color-contrast/?utm_source=lighthouse&utm_medium=devtools)
+
+- [Document does not have a meta description](https://web.dev/meta-description/)
+
+- [Serve static assets with an efficient cache policy](https://web.dev/uses-long-cache-ttl/)
+
 
 
 
