@@ -182,7 +182,7 @@ Images are used throughout the site to show case the work created by Judy B Stai
 
 -	Navigation Menu fixed at top on all devices to provide users with quick and easy access to the other pages of the site.
 
--  The header has a box shadow applied to make it standout more giving and gives an almost 3D effect.
+-  The header has a box shadow applied to make it standout more and gives an almost 3D effect.
 
 -	On mobile devices buttons are also provided on the home page along with a fixed collapsible navigation menu at the top. This encourages users to interact with the rest of the site allowing users to quickly access the other pages.
 
@@ -190,7 +190,7 @@ Images are used throughout the site to show case the work created by Judy B Stai
 
 -	Sliding Image carousel with controllers used for gallery pages. Descriptive caption provided under each image.
 
--	Image thumbnails provided on tablet and desktop devices under the carousel to allow users to open a larger static image to view a piece in more detail.
+-	Image thumbnails provided on tablet and desktop devices under the carousel to allow users to see the full range and to open a larger static image to view a piece in more detail.
 
 -	Contact Form with dropdown menu for subject line.
 
@@ -260,7 +260,7 @@ All CSS was passed through the W3C CSS Validator. No errors found and 29 warning
 
 ## Lighthouse from Chrome Dev Tools Testing:
 
-Initial report reccomended: 
+Initial report recommended: 
 
 - Adding a meta description in the head element of each page to enhance search engine optimisation.
 - Updating the text for 'get in touch' links in text to ensure proper contrast.
@@ -299,12 +299,12 @@ Tested submitting the form without one of each of the required fields and the fo
 
 ## Device testing:
 
-All aspects of the website mentioned above were also manually tested on the following devices:
+All aspects of the website mentioned above were manually tested on the following devices:
 iPad 2, iPhone 8, Macbook Pro.
 
 ## Browser Testing:
 
-All aspects of the website mentioned above were also manually tested on the following browsers:
+All aspects of the website mentioned above were manually tested on the following browsers:
 Chrome, Safari, Mozilla Firefox
 
 ## Friends & Family User Testing:
@@ -448,6 +448,8 @@ Bugs found and not fixed:
 
 # Deployment
 
+This website was created in the Gitpod development environment. After installing the Gitpod extension for Chrome web browser and creating a new repository in GitHub using the Code Institute template, the green Gitpod button was used to initialise the repository in Gitpod. Throughout the process the git commands `git add` and `git commit` were used to store the work in the local Gitpod environment, `git push` would then be used to push the commits to the GitHub repository. From here the website could then deployed to Git Pages:
+
 ## Git Hub Pages:
 
 From the Git Hub repository:
@@ -537,6 +539,6 @@ All at Code Institute and Tutor support.
 
 The Slack Community for their ever present knowledge.
 
-@Lucyjpjones for suggesting an update for the subject line of the contact form.
+@Lucyjpjones from the Slack community for suggesting an update for the subject line of the contact form when the project was posted in peer-code-review.
 
 @JimLynx_lead & @anna_ci for creating some great informative content especially the MS1 Planning Call and the Git Basics Call and the How to Approach Writing Your README File webinar.
