@@ -155,7 +155,7 @@ section {
 }
 
 .social-icon-links .fab:hover {
-    opacity: 0.5;
+    opacity: .5;
 }
 
 /*------------Home Page Images----*/
@@ -210,7 +210,7 @@ section {
  .home-page-buttons .btn,
  .submit {
     font-size: 1.5rem;
-    background-color: rgba(241, 214, 208, 0.5);
+    background-color: rgba(241, 214, 208, .5);
     color: #3D3D3D;
     border-radius: 1rem;
     margin-top: 1rem;
@@ -222,7 +222,7 @@ section {
 
 .home-page-buttons .btn:hover,
 .submit:hover {
-    opacity: 0.5;
+    opacity: .5;
 }
 
 .home-page-buttons .btn-link:hover {
@@ -276,8 +276,8 @@ section {
 /* Thumbnail hover effect - grey shadow */
 
 .thumbnail:hover {
-  -webkit-box-shadow: 0 0 2.5px 2px rgba(150, 150, 150, 0.5);
-          box-shadow: 0 0 2.5px 2px rgba(150, 150, 150, 0.5);
+  -webkit-box-shadow: 0 0 2.5px 2px rgba(150, 150, 150, .5);
+          box-shadow: 0 0 2.5px 2px rgba(150, 150, 150, .5);
 }
 /*End code snippet*/
 
@@ -318,7 +318,7 @@ section {
     width: 70%;
     border-radius: .75rem;
     border-width: .1rem;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, .7);
     text-align: left;
     padding: .3rem;
     font-size: 1.6rem;
